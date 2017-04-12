@@ -1,0 +1,47 @@
+#container{
+  margin: auto;
+  position: absolute;
+  top: -25%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  width: auto;
+}
+
+#response{
+  text-align: center;
+  padding: 30px;
+  word-wrap: break-word;
+}
+
+#btnContainer{
+  text-align: center;
+}
+
+.formContainer {
+  width: 60px;
+  height: 60px;
+}
+
+.row {
+  width: 60px;
+  margin-bottom: 0;
+}
+
+.input-field input[type=text] {
+  margin: 0 0 0 0;
+  height: 2.5rem;
+  text-align: center;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #2196f3;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #2196f3;
+  box-shadow: 0 1px 0 0 #2196f3;
+}
